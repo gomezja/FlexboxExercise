@@ -12,6 +12,9 @@ body {
     padding: 8px 0;
 }
 
+/**************************************
+/* COLUMNS
+**************************************/
 .col-1 {
     flex: 8.33%;
     max-width: 8.33%;
@@ -81,4 +84,55 @@ body {
     flex: 100%;
     max-width: 100%;
     padding: 0 0.5%;
+}
+
+/**************************************
+/* OFFSETS
+**************************************/
+.offset-1 {
+    margin-left: 8.33%;
+}
+
+.offset-2 {
+    margin-left: 16.66%;
+}
+
+.offset-3 {
+    margin-left: 25%;
+}
+
+.offset-4 {
+    margin-left: 33.33%;
+}
+
+.offset-5 {
+    margin-left: 41.66%;
+}
+
+.offset-6 {
+    margin-left: 50%;
+}
+
+.offset-7 {
+    margin-left: 58.33%;
+}
+
+.offset-8 {
+    margin-left: 66.66%;
+}
+
+.offset-9 {
+    margin-left: 75%;
+}
+
+.offset-10 {
+    margin-left: 83.33%;
+}
+
+.offset-11 {
+    margin-left: 91.66%;
+}
+
+.offset-12 {
+    margin-left: 100%;
 }
