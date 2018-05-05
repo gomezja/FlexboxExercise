@@ -42,9 +42,10 @@ body {
     font-size: 17px;
 }
 
-/* .icon {
-    margin: 0 auto
-} */
+.icon {
+    font-size: 0.80em;
+    margin-bottom: 8px;
+}
 
 .nav-link:hover {
     color: #fff;
@@ -58,10 +59,16 @@ body {
 
     .nav-link {
         flex: 1 1 33.33%;
+        flex-direction: row;
 
         height: 40px;
 
         font-size: 15px;
+    }
+
+    .icon {
+        margin-bottom: 0;
+        margin-right: 8px;
     }
 }
 
